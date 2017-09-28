@@ -1,0 +1,107 @@
+2 of examples gives correct answers but in judge 50/100
+
+
+budget = float(input())
+category = input()
+peopleNum = int(input())
+
+budget1to4 = budget * 0.75
+budget1to4 = budget - budget1to4
+budget10to24 = budget * 0.50
+budget10to24 = budget - budget10to24
+budget25to49 = budget * 0.40
+budget25to49 = budget - budget25to49
+budgetOver50 = budget * 0.25
+budgetOver50 = budget - budgetOver50
+
+vipPrice = 499.99
+normalPrice = 249.99
+
+if (peopleNum >= 25 and peopleNum <=49) and category == "VIP":
+    ticket = peopleNum * vipPrice
+    ticket2 = ticket - budget25to49
+    if budget25to49 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 1 and peopleNum <=4) and category == "VIP":
+    ticket = peopleNum * vipPrice
+    ticket2 = ticket - budget1to4
+    if budget1to4 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 10 and peopleNum <=24) and category == "VIP":
+    ticket = peopleNum * vipPrice
+    ticket2 = ticket - budget10to24
+    if budget10to24 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 50 and category == "VIP"):
+    ticket = peopleNum * vipPrice
+    ticket2 = ticket - budgetOver50
+    if budgetOver50 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+
+if (peopleNum >= 25 and peopleNum <=49) and category == "Normal":
+    ticket = peopleNum * normalPrice
+    ticket2 = budget25to49 - ticket
+    if budget25to49 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 1 and peopleNum <=4) and category == "Normal":
+    ticket = peopleNum * normalPrice
+    ticket2 = budget1to4 - ticket
+    if budget1to4 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 10 and peopleNum <=24) and category == "Normal":
+    ticket = peopleNum * normalPrice
+    ticket2 = budget10to24 - ticket
+    if budget10to24 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+if (peopleNum >= 50 and category == "Normal"):
+    ticket = peopleNum * normalPrice
+    ticket2 = ticket - budgetOver50
+    if budgetOver50 < ticket:
+        print("Not enough money! You need {0:.2f} leva.".format(ticket2))
+    else:
+        print("Yes! You have {0:.2f} leva left.".format(ticket2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

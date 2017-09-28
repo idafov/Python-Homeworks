@@ -1,0 +1,5 @@
+sideA = float(input('Square side a is: '))
+print('Square area is: ' , sideA * sideA)
+-----------------------------------
+sideA = float(input('Square side a is: '))
+print('Square area is: ' + str (sideA * sideA))

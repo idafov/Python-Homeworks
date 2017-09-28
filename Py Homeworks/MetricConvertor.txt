@@ -1,0 +1,40 @@
+distance = float(input())
+fromWhat = input()
+toWhat = input()
+
+if fromWhat == 'mm':
+    distance = distance / 1000
+
+elif fromWhat == 'cm':
+    distance = distance / 100
+elif fromWhat == 'mi':
+    distance = distance / 0.000621371192
+elif fromWhat == 'in':
+    distance = distance / 39.3700787
+elif fromWhat == 'km':
+    distance = distance / 0.001
+elif fromWhat == 'ft':
+    distance = distance / 3.2808399
+elif fromWhat == 'yd':
+    distance = distance / 1.0936133
+
+if toWhat == 'mm':
+    distance = distance * 1000
+
+elif toWhat == 'cm':
+    distance = distance * 100
+elif toWhat == 'mi':
+    distance = distance * 0.000621371192
+elif toWhat == 'in':
+    distance = distance * 39.3700787
+elif toWhat == 'km':
+    distance = distance * 0.001
+elif toWhat == 'ft':
+    distance = distance * 3.2808399
+elif toWhat == 'yd':
+    distance = distance * 1.0936133
+
+print('{0} {1}'.format(distance,toWhat))
+
+
+

@@ -1,0 +1,17 @@
+statusFr1 = input().lower()
+statusFr2 = input().lower()
+
+if (statusFr1 == "out") ^ (statusFr2 == "out"):
+    print("Go out")
+else:
+    print("Stay at home")
+
+
+
+
+
+
+
+
+
+

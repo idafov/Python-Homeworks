@@ -1,0 +1,17 @@
+foodKind = input().lower()
+
+if foodKind == "banana" or foodKind == "apple" or foodKind == "kiwi" or foodKind == "cherry" or foodKind == "lemon" or foodKind == "grapes":
+    print("fruit")
+elif foodKind == "tomato" or foodKind == "cucumber" or foodKind == "pepper" or foodKind == "carrot":
+    print("vegetable")
+else:
+    print("unknown")
+
+
+
+
+
+
+
+
+

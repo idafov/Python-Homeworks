@@ -1,0 +1,26 @@
+projection = input()
+rowNums = int(input())
+columnNums = int(input())
+
+premierePrice = 12.0
+normalPrice = 7.5
+discountPrice = 5.0
+
+if projection == "Premiere":
+    print("{0:.2f} leva".format((rowNums*columnNums) * premierePrice))
+elif projection == "Normal":
+    print("{0:.2f} leva".format((rowNums*columnNums) * normalPrice))
+elif projection == "Discount":
+    print("{0:.2f} leva".format((rowNums*columnNums) * discountPrice))
+
+
+
+
+
+
+
+
+
+
+
+

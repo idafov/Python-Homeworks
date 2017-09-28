@@ -1,0 +1,6 @@
+firstName = input()
+lastName = input()
+age = int(input())
+city = input()
+
+print('Hello,{0} {1},you are from {2} - {3} years of age.'.format(firstName,lastName,city,age))
