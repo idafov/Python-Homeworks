@@ -1,0 +1,29 @@
+n = int(input())
+def checkForNumType(n):
+    if n > 0:
+        print("The number %d is positive." % n)
+    elif n == 0:
+        print("The number %d is zero." % n)
+    else:
+        print("The number %d is negative." % n)
+
+
+checkForNumType(n)
+
+
+
+====================
+
+n = int(input())
+
+
+def checkForNumType(num):   #this is different
+    if num > 0:
+        print("The number %d is positive." % n)
+    elif num == 0:
+        print("The number %d is zero." % n)
+    else:
+        print("The number %d is negative." % n)
+
+
+checkForNumType(n)

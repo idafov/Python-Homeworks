@@ -1,0 +1,21 @@
+def printSymbol(symbol,count):
+    print(symbol  * count)
+
+printSymbol('/',10)
+printSymbol('*',5)
+printSymbol('`',20)
+printSymbol('$',40)
+
+
+
+
+-------------------------------
+
+def printNumbers(start,end):
+    for i in range(start,end + 1):
+        print(i,end=' ')
+    print()
+
+
+printNumbers(1,5)
+printNumbers(6,10)

@@ -1,0 +1,11 @@
+def printTriangle(start,end):
+    for i in range(start,end + 1):
+        print(i,end=' ')
+    print()
+
+n = int(input())
+for i in range(n + 1):
+    printTriangle(1,i)
+
+for i in range(n,1,-1):
+    printTriangle(1,i - 1)

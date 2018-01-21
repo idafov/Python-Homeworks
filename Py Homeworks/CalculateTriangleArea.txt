@@ -1,0 +1,10 @@
+side = float(input())
+height = float(input())
+
+def showSumOfTriangle(num1,num2):
+    return (side * height) / 2
+
+
+zeroDigit = '%.12g' % showSumOfTriangle(side,height)
+
+print(zeroDigit)

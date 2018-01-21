@@ -1,0 +1,12 @@
+import math
+
+pi = math.pi
+
+formattedPi = '{:.2f}'.format(pi)
+print(formattedPi)
+
+formattedPi2 = f'{pi:.2f}'
+print(formattedPi2)
+
+formattedPi3 = '%.2f' % pi
+print(formattedPi3)

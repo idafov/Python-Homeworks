@@ -1,0 +1,8 @@
+def numMultiply(num1,num2):
+    res = num1 * num2
+    return res
+
+def printResult(num1,num2):
+    print(numMultiply(num1,num2))
+
+printResult(10,20)  #print 10*20=200

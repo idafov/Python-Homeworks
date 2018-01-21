@@ -1,0 +1,8 @@
+fahrenheit = float(input())
+
+def fahrenheitToCels(num):
+    celsius = (fahrenheit - 32) * 5 / 9
+    return celsius
+
+showCels = fahrenheitToCels(fahrenheit)
+print(showCels)

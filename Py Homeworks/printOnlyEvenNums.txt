@@ -1,0 +1,5 @@
+num = input()
+
+evenNumsOnly = list(filter(lambda num: int(num) % 2 == 0 , num))
+
+print(evenNumsOnly)

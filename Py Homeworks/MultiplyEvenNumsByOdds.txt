@@ -1,0 +1,13 @@
+num = str(abs(int(input())))
+
+evenNumsOnly = list(map(int , filter(lambda num: int(num) % 2 == 0 , num)))
+oddNumsOnly = list(map(int ,filter(lambda num: int(num) % 2 == 1 , num)))
+
+#print(oddNumsOnly)
+#print(evenNumsOnly)
+
+
+evenSum = sum(evenNumsOnly)
+oddSum = sum(oddNumsOnly)
+
+print(evenSum * oddSum)

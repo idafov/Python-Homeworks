@@ -1,0 +1,4 @@
+nums = [10,20,30,40]
+nums2 = [(a * 2)for a in nums]
+
+print(nums2)  #print 20,40,60,80

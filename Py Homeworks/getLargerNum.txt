@@ -1,0 +1,11 @@
+num1 = int(input())
+num2 = int(input())
+
+def printMaxNum(number1,number2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+larger = printMaxNum(num1,num2)
+print(larger)
