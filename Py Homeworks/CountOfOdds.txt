@@ -1,0 +1,8 @@
+nums = input().split(' ')
+nums_to_int = []
+
+for i in nums:
+    nums_to_int.append(int(i))
+
+odds = [x for x in nums_to_int if x % 2 != 0]
+print(len(odds))

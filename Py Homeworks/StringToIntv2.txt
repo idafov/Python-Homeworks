@@ -1,0 +1,6 @@
+nums = input().split(' ')
+
+str_to_int = [int(item) for item in nums]
+
+print(nums)
+print(str_to_int)

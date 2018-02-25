@@ -1,0 +1,13 @@
+str_nums = input().split()
+
+int_nums = map(lambda num: int(num) , str_nums)
+
+print(*int_nums)
+
+
+==============================================
+str_nums = input().split()
+
+int_nums = map(int , str_nums)
+
+print(*int_nums)

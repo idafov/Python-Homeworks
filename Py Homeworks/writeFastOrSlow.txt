@@ -1,0 +1,19 @@
+location = 'C:/Users/Ivan/Desktop/test.txt'
+words = 'Hello i am from karshaka'.split(' ')
+
+with open(location, 'a') as file:
+    joined = ''.join(words)
+    file.write(joined)
+	
+#This is the faster way!
+#More flexible because you can use '\n'.join for example!
+
+-------------------------------------------------
+
+location = 'C:/Users/Ivan/Desktop/test.txt'
+words = 'Hello i am from karshaka'.split(' ')
+
+with open(location, 'w') as file:
+    file.writelines(words)
+	
+#Slow way cuz .write is called 6 times!

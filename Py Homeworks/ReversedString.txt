@@ -1,0 +1,5 @@
+str1 = input()
+
+reversed_str1 = reversed(str1.strip())
+
+print(*reversed_str1,sep='')

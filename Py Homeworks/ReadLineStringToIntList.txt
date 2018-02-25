@@ -1,0 +1,21 @@
+elements_as_string = input().split(' ')
+elements_as_int = []
+
+for item in elements_as_string:
+    elements_as_int.append(int(item))
+
+print(elements_as_int)
+
+
+--------------------------------
+
+elements_as_string = input().split(' ')
+elements_as_int = []
+multiply = int(input())
+
+for item in elements_as_string:
+    elements_as_int.append(int(item))
+
+for i in elements_as_int:
+    print(i * multiply , end=' ')
+

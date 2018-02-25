@@ -1,0 +1,6 @@
+nums = [int(input()) for item in range(int(input()))]
+print(nums)
+
+
+#Give len,then add nums to list
+#len = 3 , then 5,6,7 nums = list of 5,6,7...nums = [5,6,7]

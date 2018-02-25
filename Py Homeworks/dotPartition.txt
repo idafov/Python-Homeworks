@@ -1,0 +1,8 @@
+text = 'zdr -> vanka'
+
+partitioned = text.partition(' -> ')
+key, _, value = partitioned
+
+print(partitioned)
+print(key) #zdr
+print(value) #vanka

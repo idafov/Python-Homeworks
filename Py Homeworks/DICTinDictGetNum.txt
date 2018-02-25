@@ -1,0 +1,7 @@
+phonebook = {
+    "Dafov": {"GERMAN": "+49 877111912" , "BG": "+359 877111912"},
+    "Silvia": "Hi Sisi",
+
+}
+
+print(phonebook['Dafov']['BG'])  # return the BG num

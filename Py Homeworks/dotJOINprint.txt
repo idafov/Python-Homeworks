@@ -1,0 +1,8 @@
+str1 = input()
+str2 = input()
+
+joined = '_'.join([str1,str2])
+joined2 = '_'.join(str1 + str2)
+
+print(joined) #ivan_dafov
+print(joined2) #i_v_a_n_d_a_f_o_v

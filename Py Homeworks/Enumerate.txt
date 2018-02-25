@@ -1,0 +1,9 @@
+nums = [10,20,30,40]
+
+search_for_this_nums = [10,30]
+
+for (index,element) in enumerate(search_for_this_nums):
+    print('Index [{}] , Element [{}]'.format(index,element))
+    
+    #Index [0] , Element [10]
+    #Index [1] , Element [30]

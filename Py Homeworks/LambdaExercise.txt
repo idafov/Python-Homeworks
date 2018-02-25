@@ -1,0 +1,10 @@
+nums = [1, 2, 3, 4, 5]
+filtered = list(filter(lambda num: num % 2 == 0,nums))
+
+#1st way
+for x in filtered:
+    print(x)
+
+#2nd way
+print(*filtered)
+

@@ -1,0 +1,22 @@
+from functools import reduce
+
+str_nums = input().split()
+int_nums = map(int,str_nums)
+sum_nums = reduce(lambda a,b: a + b , int_nums)
+
+print(sum_nums)
+
+################################################
+#	WITH METHOD-FUNC
+
+from functools import reduce
+
+str_nums = input().split()
+int_nums = map(int,str_nums)
+
+def sumOfNums(num1,num2):
+    return num1 + num2
+
+sum_nums = reduce(sumOfNums,int_nums)
+
+print(sum_nums)

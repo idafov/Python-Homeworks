@@ -1,0 +1,8 @@
+nums = []
+
+n = int(input('Enter number of nums: '))
+
+for i in range(n):
+    nums.append(int(input()))
+
+print(nums)

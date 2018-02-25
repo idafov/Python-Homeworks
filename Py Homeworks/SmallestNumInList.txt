@@ -1,0 +1,12 @@
+nums = input().split(' ')
+nums_to_int = []
+
+for i in nums:
+    nums_to_int.append(int(i))
+
+
+#min_num = [n for n in nums_to_int if n < 0]
+
+
+print(min(nums_to_int))
+

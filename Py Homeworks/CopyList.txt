@@ -1,0 +1,11 @@
+nums = [10,20,30,40,50,60]
+
+
+def remove_smth(elem):
+    elem.remove(10)
+    return elem
+
+new_list = remove_smth(nums[:])   #[:] create a copy of the list  == .copy()
+
+print(nums)
+print(new_list)

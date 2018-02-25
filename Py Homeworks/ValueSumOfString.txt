@@ -1,0 +1,25 @@
+input_str = input()
+
+lower_or_upper = input()
+
+upper_or_lower = str.islower if lower_or_upper == "LOWERCASE" else str.isupper
+
+result = sum([ord(char) for char in input_str if upper_or_lower(char)])
+
+print(f'The total sum is: {result}')
+
+
+
+------------------------------------------------------------
+input_str = input()
+
+lower_or_upper = input()
+
+if lower_or_upper == 'LOWERCASE':
+    upper_or_lower = str.islower
+else:
+    upper_or_lower = str.isupper
+
+res = sum([ord(char) for char in input_str if upper_or_lower(char)])
+
+print(res)

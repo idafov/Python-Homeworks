@@ -1,0 +1,18 @@
+from collections import Counter
+
+elements = []
+for element in input().split(' '):
+    elements.append(element.lower())
+
+occurrences = Counter(elements)
+
+final = []
+for key, value in occurrences.items():
+    if value % 2 != 0:
+        final.append(key)
+
+print(*final, sep=', ')
+
+
+
+

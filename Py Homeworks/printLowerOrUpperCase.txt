@@ -1,0 +1,10 @@
+lower_or_upper = input()
+
+if lower_or_upper == "lower":
+    transformed_string = str.lower
+else:
+    transformed_string = str.upper
+
+transformed = transformed_string(input())
+
+print(transformed)

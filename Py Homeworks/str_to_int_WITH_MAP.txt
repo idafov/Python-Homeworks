@@ -1,0 +1,6 @@
+nums = input().split(' ')
+print(nums) #str
+
+mapped_nums_to_int = map(int,nums)
+
+print(*mapped_nums_to_int) #ints

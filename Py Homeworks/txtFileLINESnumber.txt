@@ -1,0 +1,9 @@
+location = 'C:/Users/Ivan/Downloads/Resources/01. Odd Lines/Input.txt'
+with open(location, 'r') as file:
+    with open('C:/Users/Ivan/Downloads/Resources/01. Odd Lines/result.txt', 'w') as print_here:
+        for num, line in enumerate(file,0):
+            if num % 2 == 1:
+                print_here.writelines(line)
+
+
+

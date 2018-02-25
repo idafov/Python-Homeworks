@@ -1,0 +1,11 @@
+location = 'C:/Users/Ivan/Downloads/Resources/02. Line Numbers/Input.txt'
+with open(location, 'r') as file:
+    with open('C:/Users/Ivan/Downloads/Resources/02. Line Numbers/result.txt', 'w') as print_here:
+        for num, line in enumerate(file,0):
+            if num >= 0:
+                #print_here.write(str(num))
+                print_here.write(f'{num + 1}.')
+                print_here.writelines(line)
+
+
+

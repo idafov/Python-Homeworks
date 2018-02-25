@@ -1,0 +1,18 @@
+text = input()
+search_for = input()
+
+text_lower, search_for_lower = text.lower(), search_for.lower()
+
+count = 0
+last_index = 0
+
+while True:
+    index = text_lower.find(search_for_lower, last_index)
+
+    if index == -1:
+        break
+
+    count += 1
+    last_index = index + 1
+
+print(count)
